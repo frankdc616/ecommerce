@@ -39,5 +39,9 @@
   <%= image_tag @product.image.url, size: 200, class: "img-responsive" %>
 </p>
 
+<%# if current_user.admin? %>
+<% if can? :update, @product %>
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
+
+<% end %>

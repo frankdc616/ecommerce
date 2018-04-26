@@ -14,3 +14,24 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+	background-color: lightgrey;
+}
+
+.navbar-default {
+    background-color: #a3b8c2;
+    border-color: red;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+h3 {
+	color: green;
+}
+
+.jumbotron {
+	background-color: #e6f708fc;
+}

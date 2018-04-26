@@ -16,3 +16,9 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+window.setTimeout(function() {
+ $('#flash').fadeTo(2500, 0).slideUp(1750, function() {
+ 	$(this).remove(3000);
+	});
+});

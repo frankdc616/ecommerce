@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.3'
 
+gem 'stripe'
+gem 'figaro'
 gem 'bootstrap-sass'
 gem 'better_errors'
 gem 'devise'
